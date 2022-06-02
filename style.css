@@ -1,0 +1,52 @@
+body  {
+        font-family:"Yu Gothic Medium",sans-serif;
+        font-size: 18px;
+        color :#a62929;
+}
+
+.contents  {
+    max-width: 600px; margin: 200px auto 100px;
+        font-feature-settings: "palt";
+        letter-spacing:0.2em ;
+        line-height: 2;
+        text-align:justify;
+}
+
+.contents h1{color: #000;}
+
+
+.contents-nopalt{
+    max-width:  600px; margin: 100px auto;
+    letter-spacing:0.1em ;
+    line-height: 2;
+}
+
+.contents-nopalt h1{color: #ccc;}
+
+
+.contents-serif{
+    max-width:  600px; margin: 100px auto;
+    font-family: "游明朝体","Yu Mincho", YuMincho serif;
+    font-feature-settings: "palt";
+    letter-spacing:0.2em ;
+    line-height: 2;
+    text-align: justify;
+}
+
+.contents-google{
+    max-width:  600px; margin: 100px auto;
+    font-family: ’BIZ UDPGothic’ , sans-serif;
+    font-feature-settings: "palt";
+    letter-spacing:0.2em ;
+    line-height: 2;
+    text-align: justify;
+}
+
+/*
+
+下の二つの見出しへそれぞれの色を適用してください。
+
+遊ゴシック palt有り #000
+遊ゴシック palt無し #ccc
+
+/*
